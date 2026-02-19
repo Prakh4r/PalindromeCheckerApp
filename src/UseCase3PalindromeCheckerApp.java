@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class UseCase3PalindromeCheckerApp {
     public static void main(String[] args) {
-
-        String input = "madam";
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
         String reversed = "";
 
         // Iterate from last character to first
